@@ -33,15 +33,15 @@ if (number >= 2) {
 
 // 1.
 // DESCRIPTION
-// 
-// 
-//
-//
-//
-//
+// We are declaring that name will be assigned the value of Dane, this is a string variable
+// We are then setting a conditional where:
+// If our declaration is and exact match to the value or assignemnt of Mary then:
+// The console will declare "Hi, Mary!"
+// However if the previous code is false and name equals to another value then it will console out:
+// "How do you do?", because name has been declared as "Dane"
 //
 // OUTCOME:
-//
+// 'How do you do?' is what will be logged on the console.
 
 // CODE:
 /*
