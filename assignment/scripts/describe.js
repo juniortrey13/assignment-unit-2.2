@@ -59,12 +59,13 @@ if (name === 'Mary') {
 
 // 2.
 // DESCRIPTION:
-// 
-// 
-// 
+// We are declaring secret but we are leaving it undefined, while at the same time we are declaring code and giving it the value 123
+// The condition if ( code === 123 ) is checking if the value of code is exactly 123
+// Since the statement is true it the block code inside of it will run and set the value of secret as 'super' and code is updated to change from 123 to 246.
+// The second if statement is checking if code is greater than 250, if it is secret will run "duper"
 //
 // OUTCOME:
-//
+// Because the new value of code is less that 250 it will continue to run 'Super'
 
 // CODE:
 /*
@@ -89,12 +90,18 @@ console.log(secret)
 
 // 3.
 // DESCRIPTION
-// 
-// 
-// 
+// we are declaring and assigning the value of isStundet with a boolean, true
+// we are also declaring and assigning the value of age as 34 and the value of zip as 555407
+// The first if statement is checking to see if isStudent is true and their zip coode is above 8000, which if both statements are true it will output "You're a student on the West Coast!"
+// The first else if statement is then asking if one of the above is false then it will check if not a student are they under 30, which will output "What are your hobbies?" if those two are true
+// The second else if, just checks if they are a student, if they are the output is 'Welcome to Prime!'
+// If all else fails then it will output 'How about the weather?'
 //
 // OUTCOME:
-//
+// Because thhis is a student but not on the westcoast by having a zip greater than 8000, 
+// then we go on to the second to see if they are not a student and under 30, 
+// however they are a student and over 30 so we go to the next conditional which asks if they are just a student,
+// they are a student so we reach the end and the output will be 'Welcome to Prime!'
 
 // CODE:
 /*
