@@ -204,12 +204,13 @@ if (temp > 39 || time >= 4) {
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
 
+// FIX the console log outputs need to be switched
 // CODE:
 /*
 let age = 21;
 const minAge = 21;
 
-if(minAge <= age) {
+if(minAge <= age) { 
   console.log('no entry');
 } else {
   console.log('enter');
