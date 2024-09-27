@@ -183,6 +183,8 @@ if (mix === true) {
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
 
+// FIX the description is saying that the compound conition has to be both sides must be true
+// FIX to fix the code instead of using || which means that either side can be true it should be replaced by && which states both sides must be true
 // CODE:
 /*
 let temp = 40;
