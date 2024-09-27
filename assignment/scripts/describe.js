@@ -160,6 +160,9 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
+// FIX the code only sets colorOne and not colorTwo, the if block should be updated then
+// Another FIX is that the description does not match the code colorOne and colorTwo should be flipped with the assigned values
+
 // CODE:
 /*
 let colorOne = 'red';
